@@ -1,0 +1,85 @@
+  @font-face{
+        font-family:  "Rubik 80s Fade";
+        src: url("https://fonts.google.com/");
+      }
+
+       @font-face{
+        font-family:  "Fira Sans";
+        src: url("https://fonts.google.com/");
+      }
+
+       @font-face{
+        font-family:  "Mulish";
+        src: url("https://fonts.google.com/");
+      }
+
+.element {
+  @include float-left;
+}
+.another-element {
+  @include float-right;
+}
+.one-more {
+  @include float-none;
+}
+
+
+    h1{
+    	font-family: 'Rubik 80s Fade';
+      color: #A65E4E;
+      text-align: center;
+      font-size:100px;
+      font-weight: bold;
+         
+      
+    }
+    
+    h2{
+    	font-family: 'Fira Sans';
+      color: #BF5D54;
+      text-align: center;
+      font-size:50px;
+     }
+
+     p{
+         font-family: 'Mulish';
+      color: #000000;
+      text-align: center;
+      font-size:30px;
+}
+    
+    img{
+    	
+      border-radius: 30px;
+      width: 80%;
+      height: auto;
+    }
+    
+    .carousel {
+  width:640px;
+  height:360px;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.sr-only {
+     position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.button {
+     position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
