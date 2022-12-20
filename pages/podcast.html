@@ -34,7 +34,20 @@
     text-transform: none;
     border-bottom: 1px solid; 
     margin-top: 30px;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
   }
+  @-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
   
   h2 {
     color: #C27913;
@@ -49,22 +62,6 @@
       text-align: center;
       font-size:30px;
 }
-  .pulsate {
-    -webkit-animation: pulsate 3s ease-out;
-    -webkit-animation-iteration-count: infinite; 
-    opacity: 0.5;
-}
-@-webkit-keyframes pulsate {
-    0% { 
-        opacity: 0.5;
-    }
-    50% { 
-        opacity: 1.0;
-    }
-    100% { 
-        opacity: 0.5;
-    }
-}
     
 </style>
   </head>
@@ -75,7 +72,7 @@
     <div class="row">
       <div class="col">
          <div class="float-none">
-        <h1 class="pulsate" class="text-center">PODCAST</h1>
+        <h1 class="text-center">PODCAST</h1>
       </div>
 </div>
 
